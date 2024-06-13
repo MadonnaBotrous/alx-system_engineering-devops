@@ -1,4 +1,2 @@
 #!/bin/bash
-pushd . >/dev/null 2>&1  # Silently save current directory
-cd /var
-popd  # Return to previously saved directory
+cd -
